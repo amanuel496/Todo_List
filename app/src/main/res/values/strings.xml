@@ -1,0 +1,11 @@
+<resources>
+    <string name="my_to_do_list">My TO-DO LIST</string>
+    <string name="new_task">NEW TASK</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="task_detail">TASK DETAIL</string>
+    <string name="setting">Setting</string>
+    <string name="home">Home</string>
+    <string name="to_do">TO DO</string>
+    <string name="to_do_list">TO DO List</string>
+</resources>

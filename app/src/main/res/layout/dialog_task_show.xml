@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtviewTask_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/task_detail"
+        android:textSize="30sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtxtTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:layout_margin="25dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edttxtDescription1"
+                android:layout_width="match_parent"
+                android:layout_height="403dp"
+                android:imeOptions="actionNext"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnMainMenu"
+                android:layout_width="10dp"
+                android:layout_height="57dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_action_back"
+                android:padding="10dp"/>
+
+            <ImageButton
+                android:id="@+id/btnSave"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/ic_save" />
+            <ImageButton
+                android:id="@+id/btnDelete"
+                android:layout_width="10dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_action_delete"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
